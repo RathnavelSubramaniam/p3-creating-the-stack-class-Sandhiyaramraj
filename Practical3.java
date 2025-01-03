@@ -27,7 +27,7 @@ class Stack1
              }
              else
              {
-                  return stck[top-1];
+                  return stck[top--];
              }
     }
     int peek()
